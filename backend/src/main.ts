@@ -13,12 +13,12 @@ async function bootstrap() {
 
   app.useGlobalPipes(
     new ValidationPipe({
-      whitelist: true,            // elimina campos no declarados en el DTO
+      whitelist: true, // elimina campos no declarados en el DTO
       forbidNonWhitelisted: true, // y además responde 400 si vienen
-      transform: true,            // convierte el JSON en instancia del DTO (aplica @Transform)
+      transform: true, // convierte el JSON en instancia del DTO (aplica @Transform)
     }),
   );
 
   await app.listen(process.env.PORT ?? 3000);
 }
-bootstrap();
+void bootstrap();
