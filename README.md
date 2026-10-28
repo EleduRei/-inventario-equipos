@@ -150,9 +150,9 @@ database/seed.sql         → equipos de prueba
 
 Usé **Claude (Anthropic)** como apoyo en este proyecto:
 
-- **Explicación:** me dio una guía paso a paso para hacer el proyecto.
-- **Generación de código:** me ayudó con el código del backend y del frontend.
-- **Depuración:** me ayudó a corregir errores. Por ejemplo, al copiar el código desde un PDF se cortaban las líneas, y GitHub no se actualizaba porque yo no había hecho ningún commit.
-- **Documentación:** me ayudó a hacer este README.
+- **Explicación:** me dio una guía paso a paso.
+- **Generación de código:** me ayudó con el código del frontend.
+- **Depuración:** me ayudó a corregir errores, y GitHub no se actualizaba porque yo no había hecho ningún commit.
+- **Documentación:** me ayudó a redactar el README.
 
 **Lo que hice yo:** creé los proyectos, la base de datos y el archivo `.env`, conecté el repositorio con GitHub, hice los commits y probé la API en Postman y la página en el navegador. También revisé los archivos para entender qué hace cada parte del código.
